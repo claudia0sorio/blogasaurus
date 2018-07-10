@@ -4,7 +4,10 @@ h1
   margin-left: 650px;
   text-decoration: underline;
 }
-
+h3
+{
+  margin-left: 630px;
+}
 .header
 {
   font-style: normal;
@@ -14,4 +17,15 @@ h1
 .about
 {
 font-family: Courier;
+margin-left: 450px;
+}
+
+#panda
+{
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  float: left;
+  margin: 25px;
+  border: solid 2px #58bced;
 }
