@@ -1,29 +1,55 @@
+body
+{
+  background-image: url(https://www.wallpapersbrowse.com/images/zi/zid1fxu.jpg);
+  background-repeat: repeat;
+}
+
 h1
 {
-  color: #000080;
-  margin-left: 650px;
+  color: #F8F8FF;
+  margin-left: 630px;
   text-decoration: underline;
+  text-decoration-color: black;
+  margin-right: 608px;
+  font-style: normal;
+  font-family: 'Advent Pro';
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  font-size: 50px;
 }
+
 h3
 {
   margin-left: 630px;
 }
-.header
+
+#abtTab
 {
+font-family: 'Helvetica';
+font-size: 50px;
+}
+
+p
+{
+  font-size: 25px;
+  font-family: sans-serif;
   font-style: normal;
-  font-family: Courier
 }
 
-.about
-{
-font-family: Courier;
-margin-left: 450px;
-}
-
-#panda
+.albums
 {
   height: 250px;
   width: 250px;
+  overflow: hidden;
+  float: left;
+  margin: 25px;
+  border: solid 2px #58bced;
+
+}
+
+.books
+{
+  height: 490px;
+  width: 300px;
   overflow: hidden;
   float: left;
   margin: 25px;
