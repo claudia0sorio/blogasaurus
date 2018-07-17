@@ -31,10 +31,17 @@ font-size: 50px;
 p
 {
   font-size: 25px;
-  font-family: sans-serif;
+  font-family: "Helvetica";
   font-style: normal;
 }
 
+p2
+{
+  font-size: 25px;
+  font-family: "Helvetica";
+  font-style: normal;
+  text-
+}
 .albums
 {
   height: 250px;
@@ -43,7 +50,6 @@ p
   float: left;
   margin: 25px;
   border: solid 2px #58bced;
-
 }
 
 .books
@@ -54,4 +60,19 @@ p
   float: left;
   margin: 25px;
   border: solid 2px #58bced;
+}
+figure
+{
+  display:inline-block
+}
+figcaption
+{
+  font-family: "Lucida Console", Monaco, monospace;
+  border: 5px dotted black;
+  text-align: center;
+  overflow: hidden;
+  margin: 25px;
+  border: solid 3px black;
+  height: 55px;
+  width: 275px;
 }
